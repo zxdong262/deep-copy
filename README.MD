@@ -1,4 +1,5 @@
 # json-deep-copy
+[![Build Status](https://travis-ci.org/zxdong262/deep-copy.svg?branch=master)](https://travis-ci.org/zxdong262/deep-copy)
 faster deep-copy for json style data
 
 ## feature

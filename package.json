@@ -1,6 +1,6 @@
 {
   "name": "json-deep-copy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "faster deep-copy for json style data",
   "main": "index.js",
   "scripts": {
