@@ -1,0 +1,32 @@
+{
+  "name": "json-deep-copy",
+  "version": "1.0.0",
+  "description": "faster deep-copy for json style data",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "benchmark": "node benchmark/deepcopy-vs-lodash-deep-clone.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zxdong262/deep-copy.git"
+  },
+  "keywords": [
+    "deep-copy",
+    "json"
+  ],
+  "author": "ZHAO Xudong <zxdong@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zxdong262/deep-copy/issues"
+  },
+  "homepage": "https://github.com/zxdong262/deep-copy#readme",
+  "engines": {
+    "node": ">=6"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "lodash": "^4.17.4",
+    "mocha": "^3.4.1"
+  }
+}
