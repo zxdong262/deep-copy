@@ -12,15 +12,15 @@ module.exports = exports.default = function deepCopy(src) {
     return src
   }
   if (Array.isArray(src)) {
-    let ret = src.slice()
-    let i = ret.length
+    var ret = src.slice()
+    var i = ret.length
     while (i--) {
       ret[i] = deepCopy(ret[i])
     }
     return ret
   }
-  let dest = {}
-  for (let key in src) {
+  var dest = {}
+  for (var key in src) {
     dest[key] = deepCopy(src[key])
   }
   return dest
