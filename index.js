@@ -12,10 +12,10 @@ module.exports = exports.default = function deepCopy(src) {
     return src
   }
   if (Array.isArray(src)) {
-    var ret = src.slice()
+    var ret = new Array(src.length)
     var i = ret.length
     while (i--) {
-      ret[i] = deepCopy(ret[i])
+      ret[i] = deepCopy(src[i])
     }
     return ret
   }
