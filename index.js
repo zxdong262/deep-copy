@@ -1,7 +1,7 @@
 /**
- * simplified lodash.deepClone, maybe 15 times faster when copy many compilcated objects
+ * simplified lodash.deepClone, maybe 15 times faster when copying many complex objects
  * @see benchmark/deepcopy-vs-lodash-deep-clone.js
- * only support plain objects with number, srting, array, boolean
+ * only supports plain objects with number, string, array, boolean, null
  * from http://stackoverflow.com/questions/122102/what-is-the-most-efficient-way-to-deep-clone-an-object-in-javascript
  * @param {object | array} src
  * @return {object | array}
