@@ -1,6 +1,6 @@
 {
   "name": "json-deep-copy",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "faster deep-copy for json style data",
   "main": "dist/index",
   "module": "src/index.ts",
@@ -27,10 +27,6 @@
     "url": "https://github.com/zxdong262/deep-copy/issues"
   },
   "homepage": "https://github.com/zxdong262/deep-copy#readme",
-  "dependencies": {
-    "@ringcentral/sdk": "^4.4.0",
-    "axios": "^0.19.2"
-  },
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@babel/preset-env": "^7.12.7",
