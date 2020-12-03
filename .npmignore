@@ -3,6 +3,7 @@
 .babelrc
 .coveralls.yml
 .gitignore
-.tavis.yml
+*.yml
 /temp/
 /tsconfig.json
+/coverage
