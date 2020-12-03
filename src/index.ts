@@ -7,21 +7,27 @@
  * @return {object | array}
  */
 
-module.exports = exports.default = function deepCopy(src) {
+interface Obj {
+  [key: string]: any
+}
+
+export function deepCopy(src: any): any {
   if(src === null || typeof(src) !== 'object'){
     return src
   }
   if (Array.isArray(src)) {
-    var ret = new Array(src.length)
-    var i = ret.length
+    const ret = new Array(src.length)
+    let i = ret.length
     while (i--) {
       ret[i] = deepCopy(src[i])
     }
     return ret
   }
-  var dest = {}
-  for (var key in src) {
+  const dest: Obj = {}
+  for (const key in src) {
     dest[key] = deepCopy(src[key])
   }
   return dest
 }
+
+export default deepCopy

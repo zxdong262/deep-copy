@@ -17,7 +17,7 @@ npm i json-deep-copy
 ```
 
 ```js
-const deepCopy = require('json-deep-copy')
+const deepCopy = require('json-deep-copy').default
 // or
 import deepCopy from 'json-deep-copy'
 
