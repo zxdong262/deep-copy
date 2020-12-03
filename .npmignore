@@ -1,2 +1,8 @@
 /test/
 /benchmark/
+.babelrc
+.coveralls.yml
+.gitignore
+.tavis.yml
+/temp/
+/tsconfig.json
