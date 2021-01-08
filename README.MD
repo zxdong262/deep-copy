@@ -1,7 +1,7 @@
 
 # json-deep-copy
 
-[![Build Status](https://travis-ci.org/zxdong262/deep-copy.svg?branch=master)](https://travis-ci.org/zxdong262/deep-copy)
+[![Build Status](https://travis-ci.com/zxdong262/deep-copy.svg?branch=master)](https://travis-ci.com/zxdong262/deep-copy)
 [![Coverage Status](https://coveralls.io/repos/github/zxdong262/deep-copy/badge.svg?branch=master)](https://coveralls.io/github/zxdong262/deep-copy?branch=master)
 
 Faster deep-copy for json style object.
