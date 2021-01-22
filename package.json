@@ -1,10 +1,9 @@
 {
   "name": "json-deep-copy",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "faster deep-copy for json style data",
-  "main": "dist/index",
-  "module": "src/index.ts",
-  "types": "dist/index",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "standard && jest --coverage",
     "fix": "standard --fix",
