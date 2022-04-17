@@ -1,9 +1,0 @@
-/test/
-/benchmark/
-.babelrc
-.coveralls.yml
-.gitignore
-*.yml
-/temp/
-/tsconfig.json
-/coverage

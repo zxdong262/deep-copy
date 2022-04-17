@@ -1,6 +1,6 @@
 {
   "name": "json-deep-copy",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "faster deep-copy for json style data",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -65,5 +65,10 @@
   },
   "directories": {
     "test": "test"
-  }
+  },
+  "files": [
+    "dist",
+    "src",
+    "README.md"
+  ]
 }
