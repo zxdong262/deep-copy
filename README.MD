@@ -2,7 +2,7 @@
 # json-deep-copy
 
 [![Build Status](https://github.com/zxdong262/deep-copy/actions/workflows/linux.yml/badge.svg)](https://github.com/zxdong262/deep-copy/actions)
-[![Coverage Status](https://coveralls.io/repos/github/zxdong262/deep-copy/badge.svg?branch=master)](https://coveralls.io/github/zxdong262/deep-copy?branch=master)
+[![codecov](https://codecov.io/gh/zxdong262/deep-copy/branch/master/graph/badge.svg?token=FPmt8WGuJs)](https://codecov.io/gh/zxdong262/deep-copy)
 
 Faster deep-copy for json style object.
 
