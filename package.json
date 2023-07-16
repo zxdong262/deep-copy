@@ -1,6 +1,6 @@
 {
   "name": "json-deep-copy",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "faster deep-copy for json style data",
   "main": "dist/deep-copy.js",
   "module": "src/deep-copy.js",
@@ -48,6 +48,7 @@
     "dist",
     "src",
     "README.md",
-    "tsconfig.json"
+    "tsconfig.json",
+    "LICENSE"
   ]
 }
