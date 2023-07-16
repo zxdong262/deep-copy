@@ -1,9 +1,9 @@
 {
   "name": "json-deep-copy",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "faster deep-copy for json style data",
   "main": "dist/deep-copy.js",
-  "module": "src/deep-copy.ts",
+  "module": "src/deep-copy.js",
   "types": "dist/deep-copy.d.ts",
   "scripts": {
     "test": "TS_NODE_PROJECT=./tsconfig.test.json jest --coverage",
@@ -47,6 +47,7 @@
   "files": [
     "dist",
     "src",
-    "README.md"
+    "README.md",
+    "tsconfig.json"
   ]
 }
