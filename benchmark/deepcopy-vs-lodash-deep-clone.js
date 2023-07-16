@@ -1,5 +1,5 @@
 const { cloneDeep } = require('lodash')
-const deepCopy = require('../dist/index').default
+const deepCopy = require('../dist/deep-copy.js')
 const jcopy = (src) => {
   return JSON.parse(JSON.stringify(src))
 }

@@ -31,4 +31,4 @@ export function deepCopy (src?: any): any {
 }
 
 export default deepCopy
-module.exports = deepCopy
+

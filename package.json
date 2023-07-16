@@ -1,13 +1,17 @@
 {
   "name": "json-deep-copy",
-  "version": "1.2.2",
+  "version": "1.3.0",
   "description": "faster deep-copy for json style data",
   "main": "dist/deep-copy.js",
-  "module": "src/deep-copy.js",
+  "module": "src/deep-copy.mjs",
   "types": "dist/deep-copy.d.ts",
   "scripts": {
     "test": "TS_NODE_PROJECT=./tsconfig.test.json jest --coverage",
-    "build": "tsc",
+    "build": "npm run build:commonjs && npm run build:esm",
+    "build:commonjs": "tsc && npm run append-export",
+    "append-export": "echo \"\nmodule.exports = deepCopy;\" >> dist/deep-copy.js",
+    "rename": "cp esm/deep-copy.js dist/deep-copy.mjs",
+    "build:esm": "tsc -p tsconfig.mjs.json && npm run rename",
     "prepublishOnly": "npm run build",
     "benchmark": "node benchmark/deepcopy-vs-lodash-deep-clone.js"
   },
