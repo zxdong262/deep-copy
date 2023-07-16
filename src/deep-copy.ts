@@ -11,7 +11,7 @@ interface Obj {
   [key: string]: any
 }
 
-export function deepCopy (src: any): any {
+export function deepCopy (src?: any): any {
   if (src === null || typeof (src) !== 'object') {
     return src
   }

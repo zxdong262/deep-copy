@@ -1,14 +1,12 @@
 /* eslint-env jest */
 
-import deepCopy from '../src'
-
-const pkg = require('../package.json')
+import deepCopy from '../src/deep-copy'
 
 jest.setTimeout(64000)
 
-describe(pkg.name, function () {
+describe('deeo copy', function () {
   it('null', function () {
-    let a = null
+    let a: any = null
     const b = deepCopy(a)
     expect(b).toBe(null)
     a = 0
@@ -44,7 +42,7 @@ describe(pkg.name, function () {
     }
     const b = deepCopy(a)
     expect(b.c.dfg[0].g).toBe(0)
-    a.c.dfg = 67
+    ;(a.c as any).dfg = 67
     expect(b.c.dfg[0].g).toBe(0)
   })
 
